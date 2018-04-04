@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ly.grabredpaperaccessibilityservice.MainActivity">
+
+
+    <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openAccessibility"
+            android:text="打开无障碍辅助功能 找到 “微信红包插件”" />
+
+
+    <Switch
+        android:id="@+id/switch_toggle"
+        android:text="抢到红包开启通知"
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:id="@+id/switch_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取版本进度条开启"
+
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已为您抢了"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ff0000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="次，共计"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ff0000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="目前支持的微信版本有："
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="如果直接打开本程序，那请锁定他，不要被清理了，若是清理了，请重新打开。\n如果是从辅助功能中直接开启此功能，就可以在后台抢红包。\n支持黑屏抢红包， 但需要把锁屏方式 改为无"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="本软件仅供娱乐学习参考免费使用。请勿用于商业及非法用途，用户违法用途一切后果自负。"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="有疑问请联系作者Q:2477046978"
+        android:textSize="20sp" />
+</LinearLayout>

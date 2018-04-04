@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:description="@string/grab_red_paper"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:packageNames="com.tencent.mm,com.tencent.mobileqq,com.ly.grabredpaperaccessibilityservice"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100"/>
